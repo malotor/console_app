@@ -1,0 +1,21 @@
+{
+    "name": "malotor/console_app",
+    "description": "PHP Interactive console application",
+    "require": {
+        "league/climate": "~2.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "authors": [
+        {
+            "name": "Manel López Torrent",
+            "email": "malotor@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"malotor\\console_app\\": "src/"
+    	}
+    }
+}
